@@ -4,19 +4,26 @@ body{
     padding: 0;
 }
 
-header, main, footer{
-    width: 760px;
-}
-
 header, footer{
     margin: 0 auto;
     border: 1px solid #bbb;
     padding: .5rem;
-    background-color: #283618; 
+    background-color: #283618;
+    display: grid;
+    align-items: center;
+    justify-content: center; 
+}
+
+header{
+    grid-template-columns: 200px 1fr; 
 }
 
 main{
     margin: 1rem auto;
+}
+
+footer{
+    grid-template-columns: 1fr 300px;
 }
 
 h1{
@@ -24,6 +31,11 @@ h1{
 }
 
 /* Class Selectors */
+.page{
+    max-width: 960px; 
+    margin: 0 auto;
+}
+
 .logo{
     width: 100px;
     height: auto;
