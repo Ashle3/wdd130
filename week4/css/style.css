@@ -8,7 +8,7 @@ header, footer{
     margin: 0 auto;
     border: 5px solid #BC6C25;
     padding: .5rem;
-    background-color: #283618;
+    background-color: green;
     display: grid;
     align-items: center;
     justify-content: center; 
@@ -28,11 +28,11 @@ footer{
 
 h1{
     font-size: 2.2rem;
-    color: #283618;  
+    color: green;  
 }
 
 h2{
-    color: #283618;
+    color: green;
 }
 
 /* Class Selectors */
