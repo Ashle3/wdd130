@@ -1,0 +1,63 @@
+body{
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    margin: 0 auto;
+    padding: .5rem;
+    background-color: #BC6C25;
+    display: grid;
+    align-items: center;
+    justify-content: center; 
+}
+
+header{
+    grid-template-columns: 200px 1fr; 
+}
+
+main{
+    margin: 1rem auto;
+}
+
+footer{
+    grid-template-columns: 1fr 300px;
+}
+
+h1{
+    font-size: 2.2rem;
+    color: green;  
+}
+
+h2{
+    color: green;
+}
+
+/* Class Selectors */
+.page{
+    max-width: 960px; 
+    margin: 0 auto;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+}
+
+.river:hover{
+    box-shadow: 0 0 50px #333;
+}
+
+.landscape:hover{
+    box-shadow: 0 0 50px #333; 
+}
+
+.kayak:hover{
+    box-shadow: 0 0 50px #333;
+}
+
+.social{
+    width: 100px;
+    height: auto;
+}
