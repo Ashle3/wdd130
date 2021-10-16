@@ -45,6 +45,15 @@ h2{
     height: auto;
 }
 
+.mainnav{
+    list-style-type: none;
+    display: flex;
+}
+
+.mainnav li{
+    flex: 1 1 auto;
+}
+
 .river:hover{
     box-shadow: 0 0 50px #333;
 }
