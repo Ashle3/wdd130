@@ -146,6 +146,34 @@ h4{
     background-color: green;
 }
 
+.content{
+    display: grid;
+    height: 1200px;
+    grid-template: repeat(2, 1fr);
+}
+
+.relax{
+    grid-area: 1;
+}
+
+.landscape{
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+.rush{
+    grid-area: 2;
+}
+.kayak{
+    float: left;
+}
+
+.run{
+    grid-area: 3;
+}
+
+
 
 
 
