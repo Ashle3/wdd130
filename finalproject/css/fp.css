@@ -1,5 +1,5 @@
-.h2, h3{
-    color: goldenrod;
+.h1, h2, h3{
+    color: #0081A7;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -10,9 +10,6 @@
 }
 
 .header, footer{
-    background-color: #0081A7;
+    background-color: goldenrod;
 }
 
-.h1{
-    color: #0081A7;
-}
