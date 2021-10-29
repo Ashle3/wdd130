@@ -1,13 +1,18 @@
-.h1, h2, h3{
-    color: gold;
+.h2, h3{
+    color: goldenrod;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .body{
     font-family: 'open sans', sans-serif;
     font-size: 16px;
+    background-color: lightgrey;
 }
 
 .header, footer{
     background-color: #0081A7;
+}
+
+.h1{
+    color: #0081A7;
 }
