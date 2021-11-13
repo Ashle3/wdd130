@@ -1,5 +1,5 @@
 .h1, h2, h3{
-    color: #0081A7;
+    color: darkred;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .header, footer{
-    background-color: goldenrod;
+    background-color: #a333df;
 }
 
 footer{
