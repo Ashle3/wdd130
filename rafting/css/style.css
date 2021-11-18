@@ -22,6 +22,7 @@ header{
 
 main{
     margin: 1rem auto;
+    background-color: lightgreen;
 }
 
 footer{
@@ -89,6 +90,36 @@ h4{
     color: #333;
     background-color: green;
 }
+
+.rightnav a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: lightgreen;
+    font-size: 1.2rem;
+    color: green;
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.rightnav{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+.rightnav li{
+    flex: 1 1 auto;
+}
+
+.rightnav a:hover{
+    color: blue;
+    background-color: lightgreen;
+}
+
 .river:hover{
     box-shadow: 0 0 50px #333;
 }
@@ -154,8 +185,14 @@ h4{
     grid-gap: 2.2rem;
     background-color: lightgreen;
     padding: 2rem;
+    position: relative;
 }
 
+.rightnav{
+    position: absolute;
+    top: 890px;
+    right: 30px;
+}
 .relax{
     grid-column: 1/2;
     grid-row: 1/2;
