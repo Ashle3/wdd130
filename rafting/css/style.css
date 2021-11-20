@@ -91,35 +91,6 @@ h4{
     background-color: green;
 }
 
-.rightnav a{
-    display: block;
-    padding: 1rem;
-    text-decoration: none;
-    background-color: lightgreen;
-    font-size: 1.2rem;
-    color: green;
-    list-style-type: none;
-    font-weight: bold;
-}
-
-.rightnav{
-    list-style-type: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    text-decoration-line: underline;
-}
-
-.rightnav li{
-    flex: 1 1 auto;
-}
-
-.rightnav a:hover{
-    color: blue;
-    background-color: lightgreen;
-}
-
 .river:hover{
     box-shadow: 0 0 50px #333;
 }
@@ -227,6 +198,10 @@ h4{
     padding: 1rem;
 }
 
+.paragraph{
+    margin: 1.5rem;
+}
+
 .wide3{
     width: 100%;
 }
@@ -240,12 +215,15 @@ h4{
     width: 300px;
     float: left;
     padding: 1rem;
-    border-width: 1rem;
-    border-color: darkolivegreen;
+    margin: 1rem;
 }
 
 .faq{
     margin-left: 1rem;
+}
+
+.aboutus{
+    margin-top: 1.5rem;
 }
 
 /* Accordion Stuff */
