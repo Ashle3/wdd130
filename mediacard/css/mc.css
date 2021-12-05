@@ -44,21 +44,24 @@ h1{
 
 .details{
     position: absolute;
-    right: 20px;
-    bottom: 10px;
-    border-style: solid;
-    border-width: .1em;
-    width: 150px;
-    text-align:center;
-    border-radius: 1em;
-    background-color: lightgray;
-    border-color: gray;
-    font-weight: bold;
+    right: 30px;
+    bottom: 26px;
 }
 
 .details a{
     text-decoration: none;
     color: black;
+    border-style: solid;
+    border-width: .1em;
+    width: 150px;
+    border-radius: 1em;
+    background-color: lightgray;
+    border-color: gray;
+    font-weight: bold;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: .1em;
+    padding-bottom: .1em;
 }
 
 .details a:hover{
