@@ -9,31 +9,40 @@ body{
     background-color: white;
 }
 
-header, footer{
+footer{
+    display: grid;
+    
+} 
+
+footer{
+    padding: 1rem;
     background-color: #a333df;
+}
+
+.logosmall{
+    width: 100px;
 }
 
 header{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 1rem;
+    grid-template-columns: 102px 1fr 1fr;
+    background-color: #a333df;
+    text-align: center;
+    align-items: center;
 }
 
-footer{
-    padding: 1rem;
+.company{
+    color: white
 }
 
-.logo{
-    width: 200px;
-}
 
 .mainnav{
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
-    grid-column: 3/4;
     text-align: center;
+    width: 100%;
 }
 
 .mainnav li{
@@ -44,7 +53,54 @@ footer{
     display: block;
     padding: 1rem;
     text-decoration: none;
-    border: 1px solid black;
-    background-color: darkred;
+    background-color: #a333df;
     color: white; 
+}
+
+.mainnav a:hover{
+    text-decoration: underline;
+    background-color: rgb(49, 10, 66);
+}
+
+.ribbondog{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo{
+    position: absolute;
+    z-index: 2;
+    top: 150px;
+    left: 50px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.quote{
+    color: white;
+    position: absolute;
+    z-index: 2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 560px;
+    font-size: 45px;
+    padding: .5em;
+    line-height: .5;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.unknown{
+    text-align: right;
+}
+
+.container{
+    width: 200px;
+    margin: 25 auto;
+    padding: 1rem;
+    justify-content: center;
+}
+.calendar-item{
+    padding: 0;
+    box-shadow: .5rem gray;
 }
