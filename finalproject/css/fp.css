@@ -100,9 +100,22 @@ header{
     top: 560px;
     font-size: 45px;
     padding: .5em;
-    line-height: .5;
+    line-height: .5em;
     font-weight: bold;
     font-style: italic;
+}
+
+.quote2{
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: .5em;
+    top: 175px;
+    left: 10px;
 }
 
 .unknown{
@@ -226,4 +239,17 @@ button{
 
 .instagram{
     width: 50px;
+}
+
+.dogsit{
+    width: 100%;
+    position: relative;
+}
+
+.dogpic{
+    width: 250px;
+}
+
+.dog{
+    display: flex;
 }
