@@ -14,7 +14,7 @@ body{
     height: 980px;
 } 
 
-footer{
+.copywright{
     padding: 1rem;
     background-color: #a333df;
     display: grid;
@@ -23,6 +23,10 @@ footer{
 
 .logosmall{
     width: 100px;
+}
+
+.logosmall:hover{
+    box-shadow: 0 0 50px #333;
 }
 
 header{
@@ -79,6 +83,31 @@ header{
     color: darkred;
 }
 
+.leftnav{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    color: darkred;
+}
+
+.rightnav:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.leftnav:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
 
 
 .ribbondog{
@@ -94,6 +123,10 @@ header{
     left: 50px;
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
+}
+
+.logo:hover{
+    box-shadow: 0 0 50px white;
 }
 
 .quote{
@@ -260,6 +293,9 @@ button{
     width: 250px;
 }
 
+.dogpic:hover{
+    box-shadow: 0 0 50px #333;
+}
 .dog{
     display: flex;
 }
@@ -304,6 +340,27 @@ button{
 
 .info{
     display: flex;
-    padding-top: 10px;
     background-color: rgb(230, 164, 230);
 }
+
+
+
+.about{
+   font-size: 18px;
+   max-width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.abouttext{
+    padding: 20px;
+}
+
+.doghome{
+    width: 400px;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
